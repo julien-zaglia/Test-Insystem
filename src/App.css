@@ -13,11 +13,10 @@
 .header {
   display: flex;
   margin: 0 auto;
-  border-radius: 5px;
-  text-shadow: #f6d365;
   width: 50%;
   height: 30%;
 }
+
 /* POLICE ET TITRES */
 
 h1 {
@@ -41,9 +40,9 @@ body {
   width: 100%;
 }
 
-section{
- display: flex;
- justify-content: space-around
+section {
+  display: flex;
+  justify-content: space-around
 }
 
 .card {
@@ -54,7 +53,7 @@ section{
   border-radius: 15px;
 }
 
-.info-title{
+.info-title {
   font-size: 25px;
   font-weight: 700;
   padding: 15px 0 0 12px;
@@ -67,21 +66,29 @@ section{
   padding: 5px 0 5px 12px;
 }
 
+/* FOOTER */
 
-@media all and (max-width: 1270px)
-{
-  section{
+.footer {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+/* MEDIA QUERY */
+
+@media all and (max-width: 1270px) {
+  section {
     display: flex;
     justify-content: space-evenly;
   }
 
-  .info-title{
+  .info-title {
     font-size: 15px;
     font-weight: 700;
     display: flex;
     justify-content: center;
   }
-  
+
   .info {
     font-size: 10px;
     display: flex;
@@ -90,20 +97,19 @@ section{
   }
 }
 
-@media all and (max-width: 700px)
-{
-  section{
+@media all and (max-width: 700px) {
+  section {
     display: flex;
     flex-direction: column;
   }
 
-  .info-title{
+  .info-title {
     font-size: 25px;
     font-weight: 700;
     display: flex;
     justify-content: center;
   }
-  
+
   .info {
     font-size: 15px;
     display: flex;

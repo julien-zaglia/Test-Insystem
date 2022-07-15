@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import List from './components/List';
 import './App.css';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -8,9 +9,9 @@ function App() {
   return (
     <div >
       <Header/>
-      {/* <div className='presentation' >Liste de la température des cours d'eau en Gironde:</div> */}
       
       <div className='container'><List /></div>
+      <Footer/>
     </div>
   );
 }
