@@ -1,0 +1,114 @@
+/* PARAM GLOBAUX  */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+/* HEADER  */
+
+.header {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 5px;
+  text-shadow: #f6d365;
+  width: 50%;
+  height: 30%;
+}
+/* POLICE ET TITRES */
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  margin: 20px auto;
+  font-weight: 700;
+}
+
+/* CORPS */
+
+body {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  min-height: 100vh;
+  color: white;
+}
+
+
+.container {
+  margin-top: 10%;
+  width: 100%;
+}
+
+section{
+ display: flex;
+ justify-content: space-around
+}
+
+.card {
+  min-height: 75%;
+  min-width: 15%;
+  margin: 10px;
+  border: 5px solid black;
+  border-radius: 15px;
+}
+
+.info-title{
+  font-size: 25px;
+  font-weight: 700;
+  padding: 15px 0 0 12px;
+  text-decoration: underline;
+}
+
+.info {
+  font-size: 15px;
+  display: flex;
+  padding: 5px 0 5px 12px;
+}
+
+
+@media all and (max-width: 1270px)
+{
+  section{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .info-title{
+    font-size: 15px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .info {
+    font-size: 10px;
+    display: flex;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media all and (max-width: 700px)
+{
+  section{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info-title{
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .info {
+    font-size: 15px;
+    display: flex;
+    display: flex;
+    justify-content: center;
+  }
+
+}
